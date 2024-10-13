@@ -1,0 +1,1 @@
+A rock-paper-scissors game to start teaching myelf js. nothing special!
