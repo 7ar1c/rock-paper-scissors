@@ -4,7 +4,7 @@ function rock_paper_scissors(userChoice) {
     let computerChoice = choices[randomIndex];
     
     // Update the computer choice image
-    document.getElementById('computer-choice-img').src = `${computerChoice}.png`;
+    document.getElementById('computer-choice-img').src = `images/${computerChoice}.png`;
     document.getElementById('computer-choice-img').alt = computerChoice;
 
     if (userChoice === computerChoice) {
